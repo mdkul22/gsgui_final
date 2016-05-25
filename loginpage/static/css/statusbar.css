@@ -1,0 +1,86 @@
+            #statusbar{
+                height:475px;
+                width:16.4%;
+                background-color: #252526;
+                padding:70px 0 0 20px;
+            }
+            #speed{
+                width:90%;
+                padding:0;
+                margin:0 0 0 10px;
+            }
+            #foo{
+                padding:0;
+                margin:0;
+            }
+            #showspeed{
+                width:15%;
+                color:white;
+                font-size:1.5em;
+                padding:0;
+                margin:-10px 0 40px 30px;
+            }
+ #battery{
+    margin:0;
+    padding:0;
+    position:absolute;
+    background-color: #252526;
+    width:220px;
+    height:100px;
+  }
+  #cont{
+    margin:10px 0 0 30px;
+    padding:0;
+    width:120px;
+    height:45px;
+    border:5px solid white;
+  }
+  .bar{
+    margin:1px 2px 1px 1px;
+    float:left;
+    height:93%;
+    width:22.2%;
+    background-color:white;
+  }
+  #top{
+    margin:-38px 0 0 165px;
+    width:15px;
+    height:15px;
+    background-color: white;
+  }
+  #perc{
+    font-size:2.5em;
+    margin:-50px 0 0 210px;
+    color:white;
+    font-family:Impact;
+  }
+  #bms{
+    position:absolute;
+    padding:0;
+    height:100px;
+    width:100px;
+    margin:150px 0 0 50px;
+    background-color: #33c6f4;
+    color:white;
+      border-radius: 10px;
+  }
+  #bms h1{
+    padding:0;
+    margin:3px 0 5px 15px;
+  }
+  #bms p{
+    padding:0;
+    margin:3px 0 0 25px;
+  }
+      #online{
+          border-radius: 5px;
+          width:50%;
+          height:20%;
+          background-color: #33c6f4;
+      }
+      #offline{
+          border-radius: 5px;
+          width:50%;
+          height:20%;
+          background-color: red;
+      }

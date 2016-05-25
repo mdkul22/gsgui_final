@@ -1,0 +1,108 @@
+#logindiv{
+            background-color: white;
+            width:35%;
+            height:215px;
+            margin:auto;
+            padding:0;
+            margin-top:75px;
+            color:#33c6f4;
+        }
+        #logindiv h1{
+            font-family:Roboto ExtraLight;
+            margin:20px 0 0 200px;
+            font-size:2.4em;
+        }
+        #lg{
+            font-family:Roboto ExtraLight;
+            font-size:2em;
+            float:left;
+            margin:20px 0 0 60px;
+            width:90%;
+            height:40px;
+            background-color:#33c6f4; 
+            color:white;
+        }
+        #lg p{
+            margin:0;
+            padding:0 0 0 10px;
+            float:left;
+        }
+        #lg input{
+            padding:0 0 0 10px;
+            margin:0;
+            height:40px;
+            width:250px;
+            font-size:20px;
+            float:left;
+            border:none;
+            background-color:#33c6f4;
+            color:white;
+        }
+        #pass{
+            font-family: Roboto ExtraLight;
+            font-size:2em;
+            float:left;
+            margin:30px 0 0 60px;
+            width:90%;
+            height:40px;
+            background-color:#33c6f4;
+            color:white;
+        }
+        #pass p{
+            margin:0 0 0 0;
+            padding:0 0 0 10px;
+            float:left;
+        }
+        #pass input{
+            padding:0 0 0 10px;
+            margin:0;
+            height:40px;
+            width:250px;
+            font-size:20px;
+            float:left;
+            border:none;
+            background-color:#33c6f4;
+            color:white;
+        }
+        input[type=submit]{
+            font-family: Roboto ExtraLight;
+            margin:28px 0 0 180px;
+            border:none;
+            font-size:1.9em;
+            width:175px;
+            height:50px;
+            background-color:#33c6f4;
+            color:white;
+        }
+        input[type=submit]:hover{
+            color:#196d87;
+            cursor:pointer;
+        }
+        *:focus {
+        outline: none;
+        }
+        .clear{
+            clear:both;
+        }
+        footer{
+            font-family: Roboto Light;
+            height:157px;
+            color:#33c6f4;
+            background-color:#252526; 
+            margin-top:100px;
+            font-size:1.3em;
+
+        }
+        #l1{
+            padding-top:25px;
+            margin:30px 40px 0px 300px;
+        }
+        #l2{
+            margin:0 0 0 30px;
+            padding:0;
+        }
+        #l3{
+            padding:0 0 0 120px;
+            margin:0;
+
+        }

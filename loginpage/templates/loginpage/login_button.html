@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SolarMobil</title>
+    <link rel="stylesheet" type="text/css" href="Stylesheets/topbar.css" />
+    <link rel="stylesheet" type="text/css" href="Stylesheets/login.css" />
+    <script type="text/javascript">
+         function Check(){
+         var pass,id;
+         pass = document.getElementById("pss").value;
+         id = document.getElementById("log").value;
+         if(id == "Shivang" && pass=="1234"){
+         window.location = "sensors.html";
+         }
+         else{
+         alert("Wrong Username and Id");
+            document.getElementById("pss").value = ""; 
+            document.getElementById("log").value = "";
+         }
+         }
+    </script>
+</head> 
+<body>
+    <div class="container">
+        <div id="topbar">
+            <div id="logo"><img src="Pics/logocircle.png" alt="logo" height="175px" /></div>
+            <h1>SolarMobil</h1>
+            <div id="menubar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">SENSORS</a></li>
+                    <li><a href="#">GRAPHS</a></li>
+                    <li><a href="#">LOGOUT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="logindiv">
+            <h1>LOGIN</h1>
+            <div id="lg">
+                <p>Login ID:</p>
+                <input type="text" id="log" />
+            </div>
+            <div id="pass">
+                <p>Password:</p>
+                <input type="password" id="pss" />
+            </div>
+            <input type="submit" value="Proceed" onclick="Check();" />
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <p id="l1">To fabricate a high performance cruiser class solar electric vehicle and at the same time</p>
+        <p id="l2"> focus on practicality and feasibility of the vehicle for daily use, building upon the success of past projects.
+        To become a leading student center of</p> <p id="l3">research and development in the field of green transportation with a focus on solar passenger vehicles in the next five years.</p>
+    </footer>
+</body>
+</html>
