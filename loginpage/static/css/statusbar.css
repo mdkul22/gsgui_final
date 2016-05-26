@@ -1,6 +1,6 @@
             #statusbar{
                 height:475px;
-                width:16.4%;
+                width:240px;
                 background-color: #252526;
                 padding:70px 0 0 20px;
             }
@@ -25,7 +25,7 @@
     padding:0;
     position:absolute;
     background-color: #252526;
-    width:220px;
+    width:200px;
     height:100px;
   }
   #cont{

@@ -1,0 +1,49 @@
+<div id="statusbar">
+                <div id = "speed">
+                    <canvas id="foo" height="125px" width="150px"></canvas>
+                    <div id="showspeed">
+                        <h3 id="setval"></h3></div>
+                <script>
+                        var speed = 80;
+                    var opts = {
+                      lines: 12, // The number of lines to draw
+                      angle: 0.18, // The length of each line
+                      lineWidth: 0.44, // The line thickness
+                      pointer: {
+                        length: 0.9, // The radius of the inner circle
+                        strokeWidth: 0.035, // The rotation offset
+                        color: '#000000' // Fill color
+                      },
+                      limitMax: 'false',   // If true, the pointer will not go past the end of the gauge
+                      colorStart: '#6FADCF',   // Colors
+                      colorStop: '#33c6f4',    // just experiment with them
+                      strokeColor: '#E0E0E0',   // to see which ones work best for you
+                      generateGradient: true
+                    };
+                    var target = document.getElementById('foo'); // your canvas element
+                    var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+                    gauge.maxValue = 100; // set max gauge value
+                    gauge.animationSpeed = 32; // set animation speed (32 is default value)
+                    gauge.set(speed);
+                    document.getElementById("setval").innerHTML = speed + "kmph" ;
+                    </script>
+                </div>
+                <div class="clear"></div>
+                <div id="battery">
+                          <div id="cont">
+                            <div class="bar" id="b1"></div>
+                            <div class="bar" id="b2"></div>
+                            <div class="bar" id="b3"></div>
+                            <div class="bar" id="b4"></div>
+                            </div>
+                          <div id="top"></div>
+                          <div class="clear"></div>
+                          <!--<div id="perc"><p1>100%</p1></div>-->
+                        </div>
+                        <div class="clear"></div>
+                        <div id="bms">
+                            <h1>BMS</h1>
+                            <p id="online">Online</p>
+                            <p id="offline">Offline</p>
+                        </div>
+        </div>

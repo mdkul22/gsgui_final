@@ -1,0 +1,149 @@
+        @keyframes showing{
+        	from {width:0;
+        		height:0;}
+    		to {width:250px;
+    			height:120px;}
+        }
+        @keyframes hiding{
+  			from{height:120px;
+  				width:250px;}
+  			to{height:0;
+  				width:0;}
+		}
+        #chassis{
+            margin:-460px 0 0 300px;
+            padding:0;
+            width:960px;
+        }
+        #chassis img{
+            padding:0;
+            margin:0;
+            border:6px solid #75757f;
+        }
+        #chassis p{
+            font-size:1.2em;
+            padding:0;
+            margin:5px 0 0 40px;
+        }
+        #heading{
+            font-family:Impact;
+            margin:0 0 -2px 355px;
+            padding:0;
+            background-color: #75757f;
+            color:#252526;
+            width:190px;
+            border-radius:2px;
+        }
+        #heading h1{
+            margin:0 0 0 35px;
+            padding:0;
+        }
+        #mainimg{
+            position:relative;
+            padding:0;
+            margin:0;
+        }
+        .senbut{
+            position:absolute;
+            border:none;
+        }
+        .senbut:hover{
+            cursor:pointer;
+        }
+        .senbox{
+            border-radius: 10px;
+            color:white;
+            position:absolute;
+            background-color: #252526;
+            z-index: 99;
+        }
+        .inbox{
+            border:5px solid #252526;
+            padding:0;
+            margin:0;
+            background-color: white;
+            color:black;
+            font-weight: bold;
+            width:96%;
+            height:100%;
+        }
+        #mc{
+            height:15px;
+            width:15px;
+            background-color:green;
+            right:350px;
+            top:184px;
+            z-index: 100;
+        }
+        #mcbox{
+            right:350px;
+            top:184px;
+        }
+        #mcbox h2{
+            padding:0 0 0 30px;
+            margin:0;
+        }
+        #chass_bms{
+            height:15px;
+            width:15px;
+            background-color:green;
+            left:415px;
+            top:268px;
+            z-index: 100;     
+        }
+        #bmsbox{
+            left:415px;
+            top:268px;    
+        }
+        #bmsbox h2{
+            padding:0 0 0 90px;
+            margin:0;
+        }
+        #dc{
+            height:10px;
+            width:10px;
+            background-color:green;
+            right:451px;
+            top:184px;
+            z-index: 100;     
+        }
+        #dcbox{
+            right:451px;
+            top:184px;    
+        }
+         #dcbox h2{
+            padding:0 0 0 70px;
+            margin:0;
+        }
+        #mppt{
+            height:15px;
+            width:15px;
+            background-color:green;
+            right:336px;
+            top:273px;
+            z-index: 100;     
+        }
+        #mpptbox{
+            right:336px;
+            top:273px;     
+        }
+         #mpptbox h2{
+            padding:0 0 0 80px;
+            margin:0;
+        }
+        .hide{
+        	animation-name:hiding;
+        	animation-duration: 0.2s;
+            display:none;
+            width:0px;
+            height:0px;
+        }
+        .show{
+        	animation-name:showing;
+        	animation-duration: 0.2s;
+            width:250px;
+            height:120px;
+        }
+        hr{
+            color:white;
+        }

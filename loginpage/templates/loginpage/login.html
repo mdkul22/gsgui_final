@@ -1,18 +1,21 @@
 {% extends "loginpage/header.html" %}
 {% block content%}
+</div>
             <div id="logindiv">
+             <form method="post">{% csrf_token %}
             <h1>LOGIN</h1>
             <div id="lg">
                 <p>Login ID:</p>
-                <input type="text" id="log" />
+                <input type="text" name="username" id="log" />
             </div>
             <div id="pass">
                 <p>Password:</p>
-                <input type="password" id="pss" />
+                <input type="password" name="password" id="pss" />
             </div>
-            <input type="submit" value="Proceed" onclick="Check();" />
-
+            <input type="submit" value="Proceed" />
+        </form>
         </div>
+
     </div>
     <div class="clear"></div>
     <footer>
